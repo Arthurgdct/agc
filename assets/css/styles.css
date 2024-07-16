@@ -1,0 +1,703 @@
+body {
+    margin: 0;
+    background-color: #171321;
+}
+
+.section-title {
+    margin-left: 0;
+    padding-left: 1rem;
+    margin-top: 0;
+    color: #171321;
+}
+
+.txt-w {
+    color: #fff;
+}
+
+.txt-y {
+    color: #ffe742;
+}
+
+.txt-b {
+    color: #171321;
+}
+
+.bg-y {
+    background-color: #ffe742;
+}
+
+.emblema {
+    font-family: 'Emblema One', cursive;
+}
+
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.blackops {
+    font-family: 'Black Ops One', cursive;
+}
+
+/*navbar*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: #fff 4px solid;
+    height: 100%;
+    width: 8rem;
+}
+
+/*name*/
+#namecontainer {
+    display: flex;
+}
+
+#firstname {
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#lastname {
+    font-size: 0.75rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0.8rem;
+    margin-right: 2rem;
+}
+
+/*end name*/
+/*btn nav*/
+#btncontainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-nav {
+    font-size: 0.8rem;
+    font-family: 'Black Ops One', cursive;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+}
+
+/*end btn nav*/
+/*social link*/
+#iconcontainer {
+    margin-top: 2rem;
+    color: #ffe742;
+    font-size: 2rem;
+}
+
+#iconcontainer a {
+    font-size: 1.6rem;
+    margin: 1rem;
+    color: #ffe742;
+}
+
+/*end social link*/
+/*End navbar*/
+/*home*/
+#containerHome {
+    margin-top: 18rem;
+    margin-left: 8.8rem;
+}
+
+#firstnameTitle {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: -10px;
+}
+
+#lastnameTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#sentence {
+    margin: auto;
+    text-align: center;
+}
+
+#refresh {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#refresh i {
+    cursor: pointer;
+}
+
+/*end home*/
+/*presentation*/
+#containerImgPresentation {
+    padding-bottom: 8rem;
+    margin-top: 20rem;
+    margin-left: 8rem;
+    border-top: #ffe742 solid 4px;
+    border-bottom: #ffe742 solid 4px;
+}
+
+#thumbnail {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#thumbnail img {
+    margin: 1%;
+    width: 4rem;
+    height: 5rem;
+}
+
+#firstpicture {
+    cursor: pointer;
+}
+
+#secondpicture {
+    cursor: pointer;
+}
+
+#thirdpicture {
+    cursor: pointer;
+}
+
+#presentationImg {
+    display: flex;
+    justify-content: center;
+}
+
+#presentationImg img {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+    height: 18rem;
+    width: 13rem;
+}
+
+#sentenceQuestion {
+    margin-left: 1rem;
+}
+
+#longContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#longContainer p {
+    color: #fff;
+}
+
+#inputLong {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#presentationContainer {
+    color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#textualpresentation {
+    margin-top: 3rem;
+}
+
+/*end presentation*/
+/*skills*/
+#containerSkills {
+    margin-left: 8rem;
+    padding-bottom: 8rem;
+    border-bottom: solid 4px #ffe742;
+}
+
+#illustrationSkills {
+    display: flex;
+    justify-content: center;
+}
+
+#illustrationSkills img {
+    width: 100%;
+}
+
+#barcontainer {
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.emptybar {
+    margin-right: 1rem;
+    background-color: #fff;
+}
+
+#htmlbar {
+    background-color: #3c3f86;
+    margin-right: 10%;
+}
+
+#cssbar {
+    background-color: #3c5986;
+    margin-right: 20%;
+}
+
+#phpbar {
+    background-color: #135f96;
+    margin-right: 25%;
+}
+
+#jsbar {
+    background-color: #137e96;
+    margin-right: 25%;
+}
+
+#sqlbar {
+    background-color: #10a8b1;
+    margin-right: 20%;
+}
+
+#wordpressbar {
+    background-color: #06cdc1;
+    margin-right: 30%;
+}
+
+#bootstrapbar {
+    background-color: #01e4bc;
+    margin-right: 30%;
+}
+
+#symfonybar {
+    background-color: #00d769;
+    margin-right: 60%;
+}
+
+#figmabar {
+    background-color: #6cb68a;
+    margin-right: 15%;
+}
+
+/*end skills*/
+/*carrousel*/
+.container {
+    padding: 1rem;
+}
+
+.slider img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+img.active {
+    display: block;
+    animation: fade 0.8s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cont-btn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-nav-car {
+    font-size: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+/*end carrousel*/
+/*realisation*/
+#realisation {
+    color: #fff;
+    margin-bottom: 8rem;
+    margin-left: 8rem;
+}
+
+#descproject {
+    margin-left: 1rem;
+}
+
+#icondesc {
+    display: flex;
+    justify-content: space-around;
+}
+
+#icondesc i {
+    color: #ffe742;
+    font-size: 2.8rem;
+}
+
+#illustrationproject img {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    width: 12rem;
+    height: 18rem;
+}
+
+/*end realisation*/
+/*cv*/
+#cvcontainer {
+    margin-left: 8rem;
+    color: #fff;
+    border-top: #ffe742 solid 4px;
+}
+
+#link {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+
+#link a {
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#discord,
+#email {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#cv {
+    display: flex;
+    justify-content: center;
+}
+
+#cv img {
+    margin-top: 2rem;
+    width: 13rem;
+    height: 18rem;
+}
+
+/*end cv*/
+/*contact*/
+#contact {
+    border-top: #ffe742 solid 4px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
+
+#launchsentence {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#contactform {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#contactform input {
+    margin-top: 1rem;
+}
+
+#contactform textarea {
+    margin-top: 1rem;
+}
+
+#sendbtn {
+    margin-bottom: 5rem;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #ffe742;
+    border: none;
+}
+
+.errorsmsg {
+    color: red;
+}
+
+.validmsg {
+    color: #00d769;
+}
+
+textarea {
+    resize: none;
+}
+
+/*end contact*/
+/*footer*/
+footer {
+    background-color: #171321;
+    margin-left: 8rem;
+}
+
+.footertitle {
+    width: 100%;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#linkfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#linkfooter a {
+    color: #171321;
+}
+
+.pfooter {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#linkwebsite {
+    text-decoration: none;
+    margin-right: 0;
+}
+
+#copyright {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 0.55rem;
+    padding-bottom: 0.5rem;
+}
+
+#footerdesc {
+    margin-left: 0.5rem;
+}
+
+#footercontent {
+    display: flex;
+    flex-direction: row;
+}
+
+#footertitle {
+    display: flex;
+    flex-direction: row;
+}
+
+#minidesc {
+    width: 50%;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+#emailfooter {
+    text-decoration: none;
+}
+
+#telfooter {
+    text-decoration: none;
+}
+
+/*end footer*/
+
+#legal {
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+    #lastnamecontainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 23rem;
+    }
+
+    #firstnameTitle {
+        font-size: 5rem;
+    }
+
+    #lastnameTitle {
+        font-size: 2.4rem;
+    }
+
+    #sentence {
+        width: 23rem;
+        font-size: 1.5rem;
+    }
+
+    #cv img {
+        width: 20rem;
+        height: 28rem;
+    }
+
+    #firstname {
+        font-size: 2.5rem;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+
+    }
+
+    #lastname {
+        font-size: 1.2rem;
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 0.8rem;
+        margin-right: 2rem;
+    }
+
+}
+
+@media screen and (min-width :768px) {
+    #containerpres {
+        display: flex;
+        flex-direction: row;
+        margin-right: 2rem;
+    }
+
+    #realcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .slider img {
+        max-width: 70%;
+    }
+
+    #containerimg {
+        width: 50%;
+    }
+
+    #presentationImg img {
+        width: 18rem;
+        height: 24rem;
+    }
+
+    #thumbnail img {
+        width: 6rem;
+        height: 8rem;
+    }
+
+    #textualpresentation {
+        width: 50%;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #illustrationSkills img {
+        margin-top: 3rem;
+        width: 18rem;
+        height: 24rem;
+    }
+
+    #illustrationSkills {
+        width: 50%;
+    }
+
+    #fulldesc {
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #barcontainer {
+        width: 50%;
+    }
+
+    #barcontainer div {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #cv img {
+        width: 30rem;
+        height: 40rem;
+    }
+
+    #launchsentence {
+        text-align: center;
+    }
+
+    #contactform {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #link {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #link a {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    #cvlinkcontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 8rem;
+    }
+
+    #footerinfo {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width :992px) {
+    #presentationImg img {
+        width: 25rem;
+        height: 30rem;
+    }
+
+    #illustrationSkills img {
+        width: 25rem;
+        height: 30rem;
+    }
+
+    #cv img {
+        width: 35rem;
+        height: 48rem;
+    }
+
+    #barcontainer {
+        margin-right: 5.6rem;
+        width: 48%;
+    }
+
+    #textualpresentation {
+        width: 45%;
+    }
+}
