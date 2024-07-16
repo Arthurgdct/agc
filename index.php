@@ -68,10 +68,7 @@
                         <p>Longue</p>
                     </div>
                     <div id="presentationContainer" class="roboto">
-                        <p id="description">Bonjour, je m'appel Arthur. J'ai 27 ans et je suis passionné d'informatique
-                            depuis mes 10 ans. Je suis a la recherche d'une alternance afin de continuer ma
-                            reconversion
-                            et vivre d'un emploi dans un domaine qui me passionne véritablement. Je connais le monde du travaille, et je m'adapte rapidement.</p>
+                        <p id="description">Bonjour, je m'appelle Arthur. J'ai 27 ans et je suis passionné d'informatique depuis petit. Je suis a la recherche d'une alternance afin de continuer ma reconversion et vivre d'un emploi dans un domaine qui me passionne véritablement. Je suis déterminé & j'ai une bonne expérience de la vie en entreprise.</p>
                     </div>
                 </div>
             </div>
@@ -134,12 +131,12 @@
                             UniversRp est le site que j'ai choisis de développer pour le passage de mon diplôme, le
                             principe du site est qu'il sert de substitue au matériel habituellement nécessaire pour
                             faire du Role Play. J'ai aussi developpé une interface pour créer son propre personnage avec
-                            ces caractéristiques personnalisé par l'utilisateur, une base de données afin de stocker les personnages,
-                            mes utilisateurs et leurs infos ainsi qu'une interface pour que les utilisateurs puissent
-                            jouer une partie (lancer de dés, lecture de l'histoire, illustration, etc ...) Developpé en
+                            ses caractéristiques personnalisés par l'utilisateur, une base de données afin de stocker les personnages,
+                            mes utilisateurs et leurs informations ainsi qu'une interface pour que les utilisateurs puissent
+                            jouer une partie (lancer de dés, lecture de l'histoire, illustration, etc ...) Développé en
                             "mobile first" le site est completement responsive.
                         </p>
-                        <h3 class="blackops txt-y">Technologies utilisés :</h3>
+                        <h3 class="blackops txt-y">Technologies utilisées :</h3>
                         <div id="icondesc">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
@@ -158,7 +155,7 @@
                     <a target="_blank" href="file:///C:/Users/cawot/Downloads/CVArthurgdct.pdf"><img src="assets/img/Grand-clement.png" alt=""></a>
                 </div>
                 <div id="link">
-                    <h3 class="blackops txt-y">Ou me retrouver ?</h3>
+                    <h3 class="blackops txt-y">Où me retrouver ?</h3>
                     <a class="roboto" href="https://github.com/Arthurgdct" target="_blank">Github 🐙</a>
                     <a class="roboto" href="https://www.linkedin.com/in/arthur-gdct/" target="_blank">Linkedin 👨‍💼</a>
                     <a class="roboto" id="email">Email 👨‍💻</a>
@@ -196,15 +193,14 @@
         <div id="footercontainer">
             <div>
                 <div id="footertitle" class="bg-y">
-                    <h4 class="footertitle txt-b blackops">Developpeur informatique Junior</h4>
+                    <h4 class="footertitle txt-b blackops">Développeur informatique Junior</h4>
                     <h4 class="footertitle txt-b blackops">Grand-clement Arthur</h4>
                 </div>
                 <div id="footercontent">
                     <div id="minidesc">
                         <p id="footerdesc" class="pfooter txt-w roboto">
-                            Jeune developpeur front-end & back-end
-                            passionné, je
-                            suis a votre disposition pour répondre a tout type de demande, information sur mon profil,
+                            Jeune développeur front-end & back-end
+                            passionné, je suis a votre disposition pour répondre à tout type de demande, information sur mon profil,
                             proposition de projet, création de site web, proposition d'emploi ou d'alternance.
                         </p>
                     </div>
