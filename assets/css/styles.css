@@ -128,6 +128,7 @@ header {
 #refresh {
     font-size: 2rem;
     text-align: center;
+    animation: beat .35s infinite alternate;
 }
 
 #refresh i {
@@ -157,29 +158,17 @@ header {
     height: 5rem;
 }
 
-#firstpicture {
-    cursor: pointer;
-}
-
-#secondpicture {
-    cursor: pointer;
-}
-
-#thirdpicture {
-    cursor: pointer;
-}
-
 #presentationImg {
     display: flex;
     justify-content: center;
 }
 
 #presentationImg img {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-
+    margin-top: 4rem;
+    margin-bottom: 1rem;
     height: 18rem;
     width: 13rem;
+    border-radius: 30%;
 }
 
 #sentenceQuestion {
@@ -315,10 +304,13 @@ img.active {
 }
 
 .cont-btn {
+    color: #ffe742;
+    margin-top: 2rem;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-around;
+    animation: beat-arrow 1s infinite alternate;
 }
 
 .btn-nav-car {
@@ -331,8 +323,11 @@ img.active {
 /*realisation*/
 #realisation {
     color: #fff;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     margin-left: 8rem;
+}
+#carrousel {
+    margin-top: 2rem;
 }
 
 #descproject {
@@ -522,12 +517,34 @@ h4 {
     text-decoration: none;
 }
 
-/*end footer*/
-
 #legal {
     margin-left: 1rem;
 }
 
+/*end footer*/
+/*animation*/
+@keyframes beat
+{
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+@keyframes beat-arrow
+{
+  80%
+  {
+    transform: scale( .85 );
+  }
+  100%
+  {
+    transform: scale( .85 );
+  }
+}
 @media screen and (min-width: 500px) {
     #lastnamecontainer {
         margin-left: auto;

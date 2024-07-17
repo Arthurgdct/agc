@@ -37,6 +37,7 @@
         </nav>
     </header>
     <main>
+<!--Accueil-->
         <section id="containerHome">
             <h1 id="firstnameTitle" class="txt-y emblema">ARTHUR</h1>
             <div id="lastnamecontainer" class="bg-y">
@@ -47,6 +48,7 @@
             </div>
             <p id="refresh"><i id="arrow" class="fa-solid fa-rotate-right txt-y"></i></p>
         </section>
+        <!--Présentation-->
         <section id="containerImgPresentation">
             <h2 class="bg-y section-title emblema">Présentation</h2>
             <div id="containerpres">
@@ -73,6 +75,7 @@
                 </div>
             </div>
         </section>
+        <!--Compétences-->
         <section id="containerSkills">
             <h2 class="bg-y section-title emblema">Compétences</h2>
             <div id="skills">
@@ -107,6 +110,7 @@
                 </div>
             </div>
         </section>
+        <!--Portfolio-->
         <section id="realisation">
             <h2 class="bg-y section-title emblema">Portfolio</h2>
             <div id="realcontainer">
@@ -148,11 +152,12 @@
                 </div>
             </div>
         </section>
+        <!--Lien et CV-->
         <section id="cvcontainer">
             <h2 class="bg-y section-title emblema">Liens et Cv</h2>
             <div id="cvlinkcontent">
                 <div id="cv">
-                    <a target="_blank" href="file:///C:/Users/cawot/Downloads/CVArthurgdct.pdf"><img src="assets/img/Grand-clement.png" alt=""></a>
+                    <a target="_blank" href="assets/img/agdctCV.pdf"><img src="assets/img/agdctCV.png" alt=""></a>
                 </div>
                 <div id="link">
                     <h3 class="blackops txt-y">Où me retrouver ?</h3>
@@ -163,6 +168,7 @@
                 </div>
             </div>
         </section>
+        <!--Contact-->
         <section id="contact">
             <h2 class="bg-y section-title emblema">Contact</h2>
             <h3 class="blackops txt-y" id="launchsentence">Une Question ? Une proposition ? C'est par ici !</h3>
@@ -216,7 +222,7 @@
                             <a id="emailfooter" href="mailto:grandclementarthur@gmail.com" class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i>
                                 Arthurgdct@gmail.com</a>
                             <p>
-                                <a id="linkwebsite" href="agc.wstr.fr" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i>Lien du site</a>
+                                <a id="linkwebsite" href="https://arthurgdct.websr.fr/" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i>Lien du site</a>
                             </p>
                         </div>
                     </div>
