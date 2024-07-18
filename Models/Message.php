@@ -16,9 +16,9 @@ class Message extends Db
         $query = 'INSERT INTO `contact` (`name`, `email`, `message`) VALUES 
     (:name, :email, :message)';
         $stmt = $this->pdo->prepare($query);
-        $stmt->bindParam(':name', $this->name, PDO::PARAM_STR);
-        $stmt->bindParam(':email', $this->email, PDO::PARAM_STR);
-        $stmt->bindParam(':message', $this->message, PDO::PARAM_STR);
+        $stmt->bindParam(':name', htmlspecialchars($this->name), PDO::PARAM_STR);
+        $stmt->bindParam(':email', htmlspecialchars($this->email), PDO::PARAM_STR);
+        $stmt->bindParam(':message', htmlspecialchars($this->message), PDO::PARAM_STR);
         $stmt->execute();
     }
 }

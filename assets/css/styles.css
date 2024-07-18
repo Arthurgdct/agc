@@ -135,6 +135,18 @@ header {
     cursor: pointer;
 }
 
+@keyframes beat
+{
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
 /*end home*/
 /*presentation*/
 #containerImgPresentation {
@@ -351,6 +363,18 @@ img.active {
     height: 18rem;
 }
 
+@keyframes beat-arrow
+{
+  80%
+  {
+    transform: scale( .85 );
+  }
+  100%
+  {
+    transform: scale( .85 );
+  }
+}
+
 /*end realisation*/
 /*cv*/
 #cvcontainer {
@@ -415,8 +439,25 @@ img.active {
     margin-top: 1rem;
 }
 
+#infodiv{
+    display: flex;
+    justify-content: space-between;
+}
+#infodiv input{
+    color: #ffe742;
+    width: 45%;
+    height: 2rem;
+    background-color: #656793;
+    border: none;
+    border-radius: 7px;
+}
+
 #contactform textarea {
-    margin-top: 1rem;
+    color: #ffe742;
+    height: 15rem;
+    background-color: #656793;
+    border: none;
+    border-radius: 7px;
 }
 
 #sendbtn {
@@ -429,6 +470,7 @@ img.active {
     font-size: 1.2rem;
     background-color: #ffe742;
     border: none;
+    cursor: pointer;
 }
 
 .errorsmsg {
@@ -522,29 +564,8 @@ h4 {
 }
 
 /*end footer*/
-/*animation*/
-@keyframes beat
-{
-  80%
-  {
-    transform: scale( .75 );
-  }
-  100%
-  {
-    transform: scale( .75 );
-  }
-}
-@keyframes beat-arrow
-{
-  80%
-  {
-    transform: scale( .85 );
-  }
-  100%
-  {
-    transform: scale( .85 );
-  }
-}
+
+
 @media screen and (min-width: 500px) {
     #lastnamecontainer {
         margin-left: auto;
@@ -705,8 +726,7 @@ h4 {
     }
 
     #cv img {
-        width: 35rem;
-        height: 48rem;
+        width: 100%;
     }
 
     #barcontainer {

@@ -37,7 +37,7 @@
         </nav>
     </header>
     <main>
-<!--Accueil-->
+        <!--Accueil-->
         <section id="containerHome">
             <h1 id="firstnameTitle" class="txt-y emblema">ARTHUR</h1>
             <div id="lastnamecontainer" class="bg-y">
@@ -173,12 +173,14 @@
             <h2 class="bg-y section-title emblema">Contact</h2>
             <h3 class="blackops txt-y" id="launchsentence">Une Question ? Une proposition ? C'est par ici !</h3>
             <form id="contactform" action="" method="post">
-                <input type="text" placeholder="<?= (isset($_POST['name'])) ? $_POST['name'] : 'Nom' ?>" name="name" id="name">
+                <div id="infodiv">
+                    <input type="text" placeholder="<?= (isset($_POST['name'])) ? $_POST['name'] : 'Nom' ?>" name="name" id="name">
+                    <input type="email" placeholder="<?= (isset($_POST['email'])) ? $_POST['email'] : 'Email' ?>" name="email" id="emailform">
+                </div>
                 <?php if (isset($errors['name'])) { ?>
                     <p class="errorsmsg"><?= $errors['name'] ?></p>
-                <?php } ?>
-                <input type="email" placeholder="<?= (isset($_POST['email'])) ? $_POST['email'] : 'Email' ?>" name="email" id="emailform">
-                <?php if (isset($errors['email'])) { ?>
+                <?php }
+                if (isset($errors['email'])) { ?>
                     <p class="errorsmsg"><?= $errors['email'] ?></p>
                 <?php } ?>
                 <textarea placeholder="<?= (isset($_POST['message'])) ? $_POST['message'] : 'Message' ?>" name="message" id="message" cols="30" rows="10"></textarea>
