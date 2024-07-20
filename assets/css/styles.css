@@ -448,15 +448,16 @@ img.active {
     width: 45%;
     height: 2rem;
     background-color: #656793;
-    border: none;
+    border:#ffe742 solid 1px;
     border-radius: 7px;
+    margin-bottom: 1rem;
 }
 
 #contactform textarea {
     color: #ffe742;
     height: 15rem;
     background-color: #656793;
-    border: none;
+    border:#ffe742 solid 1px;
     border-radius: 7px;
 }
 
@@ -606,6 +607,19 @@ h4 {
         margin-right: 2rem;
     }
 
+}
+
+@media screen and  (max-width: 500px){
+    #footercontent {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 2rem;
+    }
+
+    #minidesc {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width :768px) {
