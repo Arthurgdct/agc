@@ -70,7 +70,7 @@
                         <p>Longue</p>
                     </div>
                     <div id="presentationContainer" class="roboto">
-                        <p id="description">Bonjour, je m'appelle Arthur. J'ai 27 ans et je suis passionné d'informatique depuis petit. Je suis a la recherche d'une alternance afin de continuer ma reconversion et vivre d'un emploi dans un domaine qui me passionne véritablement. Je suis déterminé & j'ai une bonne expérience de la vie en entreprise.</p>
+                        <p id="description">Bonjour, je m'appelle Arthur. J'ai 27 ans et je suis passionné d'informatique depuis petit. Je suis a la recherche d'une alternance pour faire un CDA (Concepteur Développeur d\'Application) afin de continuer ma reconversion et vivre d'un emploi dans un domaine qui me passionne véritablement. Je suis déterminé & j'ai une bonne expérience de la vie en entreprise.</p>
                     </div>
                 </div>
             </div>
@@ -132,13 +132,13 @@
                         <h2 class="bg-y section-title emblema">UniversRp</h2>
                         <h3 class="blackops txt-y">Résumé du projet :</h3>
                         <p class="roboto">
-                            UniversRp est le site que j'ai choisis de développer pour le passage de mon diplôme, le
+                            UniversRp est le site que j'ai choisi de développer pour le passage de mon diplôme. Le
                             principe du site est qu'il sert de substitue au matériel habituellement nécessaire pour
-                            faire du Role Play. J'ai aussi developpé une interface pour créer son propre personnage avec
-                            ses caractéristiques personnalisés par l'utilisateur, une base de données afin de stocker les personnages,
+                            faire du Role Play. J'ai aussi développé une interface pour créer son propre personnage avec
+                            ses caractéristiques personnalisées par l'utilisateur, une base de données afin de stocker les personnages,
                             mes utilisateurs et leurs informations ainsi qu'une interface pour que les utilisateurs puissent
                             jouer une partie (lancer de dés, lecture de l'histoire, illustration, etc ...) Développé en
-                            "mobile first" le site est completement responsive.
+                            "mobile first" le site est complètement responsive.
                         </p>
                         <h3 class="blackops txt-y">Technologies utilisées :</h3>
                         <div id="icondesc">
@@ -208,7 +208,7 @@
                     <div id="minidesc">
                         <p id="footerdesc" class="pfooter txt-w roboto">
                             Jeune développeur front-end & back-end
-                            passionné, je suis a votre disposition pour répondre à tout type de demande, information sur mon profil,
+                            passionné, je suis à votre disposition pour répondre à tout type de demande, information sur mon profil,
                             proposition de projet, création de site web, proposition d'emploi ou d'alternance.
                         </p>
                     </div>
